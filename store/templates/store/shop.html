@@ -211,23 +211,23 @@
                     </div>
                     
                     <div class="row">
-                        {% for item in object_list %}
+                        {% for items in items_list %}
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
                             
-                                <div class="product__item__pic set-bg" data-setbg="{{ item.image.url }}">
+                                <div class="product__item__pic set-bg" data-setbg="{{ items.image.url }}">
                                 
                                     <span class="label">{{ item.get_label_display }}</span>
                                     <ul class="product__hover">
-                                        <li><a href="{{ item.get_add_to_cart_url }}"><img src="{% static 'img/icon/heart.png' %}" alt=""></a></li>
-                                        <li><a href="{{ item.get_add_to_cart_url }}"><img src="{% static 'img/icon/compare.png' %}" alt=""> <span>Compare</span></a>
+                                        <li><a href="{{ items.get_add_to_cart_url }}"><img src="{% static 'img/icon/heart.png' %}" alt=""></a></li>
+                                        <li><a href="{{ items.get_add_to_cart_url }}"><img src="{% static 'img/icon/compare.png' %}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="{{ item.get_add_to_cart_url }}"><img src="{% static 'img/icon/search.png' %}" alt=""></a></li>
+                                        <li><a href="{{ items.get_add_to_cart_url }}"><img src="{% static 'img/icon/search.png' %}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6>{{ item.title }}</h6>
-                                    <a href="{{ item.get_add_to_cart_url }}" class="add-cart">+ Add To Cart</a>
+                                    <h6>{{ items.title }}</h6>
+                                    <a href="{{ items.get_add_to_cart_url }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -235,11 +235,11 @@
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
                                     </div>
-                                    {% if item.discount_price %}
-                                    <del>${{ item.price }}</del>
-                                    <h5>${{ item.discount_price }}</h5>
+                                    {% if items.discount_price %}
+                                    <del>${{ items.price }}</del>
+                                    <h5>${{ items.discount_price }}</h5>
                                     {% else %}
-                                    <h5>${{ item.price }}</h5>
+                                    <h5>${{ items.price }}</h5>
                                     {% endif %}
                                     <div class="product__color__select">
                                         <label for="pc-4">
