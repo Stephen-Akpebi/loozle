@@ -347,13 +347,11 @@ class PaymentView(View):
 
 class HomeView(ListView):
     model = Item
-    paginate_by = 10
     template_name = "store/index.html"
 
 
 class ShopView(ListView):
     model = Item
-    paginate_by = 50
     template_name = "store/shop.html"
 
 
