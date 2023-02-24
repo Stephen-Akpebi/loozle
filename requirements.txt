@@ -17,6 +17,7 @@ django-bootstrap-v5==1.0.11
 django-bootstrap5==22.1
 django-cloudinary-storage==0.3.0
 django-cors-headers==3.10.1
+django-countries==7.5.1
 django-crispy-forms==1.14.0
 django-debug-toolbar==3.6.0
 django-decouple==2.1
@@ -63,6 +64,7 @@ rsa==4.9
 six==1.16.0
 soupsieve==2.3.2.post1
 sqlparse==0.4.2
+stripe==5.2.0
 tk==0.1.0
 toml==0.10.2
 typing_extensions==4.4.0
