@@ -346,7 +346,7 @@ class PaymentView(View):
 
 
 class HomeView(ListView):
-    model = Item
+    queryset = Item.objects.all()
     template_name = "store/index.html"
 
 
