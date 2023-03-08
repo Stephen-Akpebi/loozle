@@ -255,7 +255,8 @@
 .ls-video {
     bottom: 0;
     right: 0;
-    z-index: inherit;
+    width: 100%;
+    z-index: -1;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -791,4 +792,5 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}   color: var(--primary);
 }

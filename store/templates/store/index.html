@@ -9,7 +9,7 @@
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
+                        <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/video_20.mp4' %}" type="video/mp4"></video>
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-center">
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    {% comment %} <div class="carousel-item">
                         <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
                         <div class="carousel-caption">
                             <div class="container">
@@ -45,16 +45,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> {% endcomment %}
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                {% comment %} <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> {% endcomment %}
             </div>
         </div>
     </section>

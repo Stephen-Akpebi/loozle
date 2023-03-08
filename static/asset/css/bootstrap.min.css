@@ -657,7 +657,7 @@ progress {
     .container,
     .container-sm,
     .container-md {
-        max-width: 720px
+        max-width: 20px
     }
 }
 
@@ -6197,7 +6197,7 @@ fieldset:disabled .btn {
     width: 100%;
     margin-right: -100%;
     backface-visibility: hidden;
-    transition: transform .6s ease-in-out
+    transition: transform .50s ease-in-out
 }
 
 @media (prefers-reduced-motion: reduce) {
