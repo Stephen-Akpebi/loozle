@@ -3,103 +3,61 @@
 {% load static %}
 
     <!-- Hero Section Begin -->
-    <div class="container-fluid p-0 mb-5 ">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <video autoplay loop muted plays-inline class="w-100 min-vw-100"><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-white mb-3 animated slideInDown">EMPOWER WOMEN:</h1>
-                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown"> Empower young women in the northern Ghana through entreprenurship and business support</p>
-                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
+    
+    <section class="hero">
+        <div class="container-fluid p-0 mb-5 ">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1 class="display-4 text-white mb-3 animated slideInDown">EMPOWER WOMEN:</h1>
+                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown"> Empower young women in the northern Ghana through entreprenurship and business support</p>
+                                        <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                            Learn More
+                                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1 class="display-4 text-white mb-3 animated slideInDown">SHOP FOR IMPACT:</h1>
+                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">Make a positive impact on young women's lives by shopping for purpose in northern Ghana</p>
+                                        <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                            Learn More
+                                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {% comment %} <div class="carousel-item">
-                    <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-white mb-3 animated slideInDown">SHOP FOR IMPACT:</h1>
-                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Make a positive impact on young women's lives by shopping for purpose in northern Ghana</p>
-                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                        Learn More
-                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                            <i class="fa fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button> {% endcomment %}
-        </div>
-    </div>
-    {% comment %} <section class="hero">
-        <div class="hero__slider owl-carousel">
-            <div class="hero__items " >
-                <video autoplay loop muted plays-inline class="lz-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2 class="text-white">Fall - Winter Collections 2030</h2>
-                                <p class="text-white">A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a class="text-white" href="#"><i class="fa fa-facebook"></i></a>
-                                    <a class="text-white" href="#"><i class="fa fa-twitter"></i></a>
-                                    <a class="text-white" href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a class="text-white" href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero__items set-bg" data-setbg="{% static 'img/hero/image5.jpg' %}">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-7 col-md-8">
-                            <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2 class="text-white">Fall - Winter Collections 2030</h2>
-                                <p class="text-white">A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
-                                <div class="hero__social">
-                                    <a class="text-white" href="#"><i class="fa fa-facebook"></i></a>
-                                    <a class="text-white" href="#"><i class="fa fa-twitter"></i></a>
-                                    <a class="text-white" href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a class="text-white" href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-    </section> {% endcomment %}
+    </section>
     <!-- Hero Section End -->
 
     <!-- Banner Section Begin -->
