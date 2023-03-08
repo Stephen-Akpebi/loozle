@@ -66,6 +66,29 @@
         $(".offcanvas-menu-overlay").addClass("active");
     });
 
+
+    $(".canvas__open2").on('click', function() {
+        $(".offcanvas-menu-wrapper").addClass("active");
+        $(".offcanvas-menu-overlay").addClass("active");
+    });
+
+
+    $(".canvas__open3").on('click', function() {
+        $(".offcanvas-menu-wrapper").addClass("active");
+        $(".offcanvas-menu-overlay").addClass("active");
+    });
+
+    $(".canvas__open4").on('click', function() {
+        $(".offcanvas-menu-wrapper").addClass("active");
+        $(".offcanvas-menu-overlay").addClass("active");
+    });
+
+
+    $(".canvas__open5").on('click', function() {
+        $(".offcanvas-menu-wrapper").addClass("active");
+        $(".offcanvas-menu-overlay").addClass("active");
+    });
+
     $(".offcanvas-menu-overlay").on('click', function() {
         $(".offcanvas-menu-wrapper").removeClass("active");
         $(".offcanvas-menu-overlay").removeClass("active");
