@@ -7,7 +7,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video autoplay loop muted plays-inline class="lz-video w-100"><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
+                    <video autoplay loop muted plays-inline class="w-100 min-vw-100"><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -25,8 +25,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <video autoplay loop muted plays-inline class="lz-video w-100"><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
+                {% comment %} <div class="carousel-item">
+                    <video autoplay loop muted plays-inline class="ls-video "><source src="{% static 'img/video/header.mp4' %}" type="video/mp4"></video>
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -52,7 +52,7 @@
             <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </button>
+            </button> {% endcomment %}
         </div>
     </div>
     {% comment %} <section class="hero">
@@ -103,9 +103,9 @@
     <!-- Hero Section End -->
 
     <!-- Banner Section Begin -->
-    <section class="banner spad">
+    <section class="container-xxl py-5">
         <div class="container">
-            <div class="row">
+            <div class="row g-5">
                 <div class="col-lg-7 offset-lg-4">
                     <div class="banner__item">
                         <div class="banner__item__pic">

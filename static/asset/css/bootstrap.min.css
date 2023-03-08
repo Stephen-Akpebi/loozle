@@ -7018,11 +7018,13 @@ fieldset:disabled .btn {
 }
 
 .w-100 {
-    width: 100% !important
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
 }
 
 .w-auto {
-    width: auto !important
+    width: auto !important;
 }
 
 .mw-100 {
@@ -11212,4 +11214,11 @@ fieldset:disabled .btn {
     .d-print-none {
         display: none !important
     }
+}
+
+
+}
+
+}
+
 }
